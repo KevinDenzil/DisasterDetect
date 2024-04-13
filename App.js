@@ -1,10 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import Login from "./Screens/Login"
+
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Disaster Detect Sai ANanth</Text>
+      <Login />
       <StatusBar style="auto" />
     </View>
   );
