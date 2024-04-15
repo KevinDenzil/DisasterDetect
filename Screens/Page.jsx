@@ -1,40 +1,9 @@
-// import React, {useState, useEffect} from 'react'
-// import {Text, TextInput, View} from 'react-native';
-// import { Input, ViewIn } from '../App.style.js'
-
-// const Login = () => {
-//     const [aadhar, setAadhar] = useState(0);
-//     const [password, setPassword] = useState("");
-
-//     return(
-//         <View>
-//             <Text>Login</Text>
-//             <ViewIn>
-//                 <Input placeholder='Enter Aadhar No.' onChangeText={updates => setAadhar(updates)} />
-//                 <TextInput secureTextEntry={true} placeholder="Password" onChange={setPassword} />
-//             </ViewIn>
-//         </View> 
-//     );
-// };
-
-// export default Login;
-
-
-
-
-
-
-
-
-
-
-
-
 // import * as React from "react";
 import { Text, StyleSheet, View } from "react-native";
-import { FontFamily, FontSize, Color, Border } from "C:\Users\jenso\Desktop\vithackathon\GLobalStyles.ts";
+import { Image } from "expo-image";
+import { FontFamily, FontSize, Color, Border } from "../GlobalStyles";
 
-const Login = () => {
+const Page = () => {
   return (
     <View style={styles.iphone13141}>
       <Text style={styles.disasterDetect}>
@@ -153,4 +122,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Login;
+export default Page;
